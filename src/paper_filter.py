@@ -37,7 +37,7 @@ def filter_papers_with_llm(papers: list[Paper], keywords, model_name, client) ->
 
 User's interests: {', '.join(keywords)}
 
-The paper is considered relevant if it aligns with ANY of the interests listed above (not necessarily all of them).
+The paper is considered relevant if it aligns with at least one of the interests listed above.
 
 Paper Title: {paper.title}
 Abstract: {paper.abstract}
