@@ -109,8 +109,8 @@ def load_config(config_path: str = "config.yaml") -> dict:
     # Apply models defaults
     if "models" not in config:
         config["models"] = {}
-    config["models"].setdefault("filter", "gpt-5-mini")
-    config["models"].setdefault("summarize", "gpt-5")
+    config["models"].setdefault("filter", "gpt-4.1-mini")
+    config["models"].setdefault("summarize", "gpt-4.1")
     
     return config
 

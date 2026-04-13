@@ -34,8 +34,8 @@ llm_service:
   # API key is read from LLM_API_KEY env var, falling back to GITHUB_TOKEN if not set
 
 models:
-  filter: "gpt-5-mini"
-  summarize: "gpt-5"
+  filter: "gpt-4.1-mini"
+  summarize: "gpt-4.1"
 ```
 
 ### Using Other LLM Providers
