@@ -9,10 +9,10 @@ keywords:
 arxiv:
   categories:
     - "cs.CR" # Cryptography and Security
-    # - "cs.LG" # Machine Learning
+    - "cs.LG" # Machine Learning
     # - "cs.SE" # Software Engineering
-    # - "cs.CL" # Computation and Language
-    # - "cs.AI" # Artificial Intelligence
+    - "cs.CL" # Computation and Language
+    - "cs.AI" # Artificial Intelligence
   max_results: 1000
 
 github:
